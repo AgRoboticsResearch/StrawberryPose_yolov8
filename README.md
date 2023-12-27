@@ -33,18 +33,19 @@ The training code obtained from the YOLO official website, which can be run in t
 
 Simply run the following commands: nohup python3 train_sb_pose.py &
 
-### use_sb_pose.py
+### use_sb_pose.ipynb
 Run this file to predict strawberry keypoints in the image, you just need to change the image path.
 
 ## sb_segmentation
 Training methods and model usage methods for strawberry instance segmentation.
+![Uploading image.png…]()
 
 ### train_sb_seg.py
 The training code obtained from the YOLO official website, which can be run in the system background.
 
 Simply run the following commands: nohup python3 train_sb_seg.py &
 
-### use_sb_seg.py
+### use_sb_seg.ipynb
 Run this file to make strawberry segmentation in the image, you just need to change the image path.
 
 ## model
