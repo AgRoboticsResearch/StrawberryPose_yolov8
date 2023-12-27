@@ -28,6 +28,8 @@ The function is the same as the previous file, but it converts the segmentation 
 ## sb_pose
 Training methods and model usage methods for strawberry key point recognition
 
+![pose](pose.png)
+
 ### train_sb_pose.py
 The training code obtained from the YOLO official website, which can be run in the system background.
 
@@ -38,7 +40,8 @@ Run this file to predict strawberry keypoints in the image, you just need to cha
 
 ## sb_segmentation
 Training methods and model usage methods for strawberry instance segmentation.
-![Uploading image.png…]()
+
+![segmentation](seg.png)
 
 ### train_sb_seg.py
 The training code obtained from the YOLO official website, which can be run in the system background.
