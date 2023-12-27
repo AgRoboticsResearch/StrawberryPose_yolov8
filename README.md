@@ -1,6 +1,8 @@
 # Strawberry_yolov8
 This project uses the YOLOv8 model to complete various recognization tasks for strawberries, including instance segmentation, key points recognition, etc.
 The training dataset used in this project is kindly provided by the StrawDI Team (see https://strawdi.github.io/).
+you need to install ultralytics:
+`pip install ultralytics`
 
 ## sb_data_preparation
 The main function of this folder is to convert various types of data into .txt format that YOLO can directly use. 
